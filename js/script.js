@@ -17,6 +17,7 @@ async function init() {
     handleSuccess(stream);
   } catch (e) {
     console.log("Oop.")
+    console.log(e)
   }
 }
 
