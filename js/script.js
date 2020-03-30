@@ -1,6 +1,7 @@
 "use strict";
 
-const video = document.getElementById("video");
+const videoTv = document.getElementById("video-tv");
+const videoLaptop = document.getElementById("video-laptop");
 
 const constraints = {
   audio: false,
@@ -24,7 +25,8 @@ async function init() {
 // Success
 function handleSuccess(stream) {
   window.stream = stream;
-  video.srcObject = stream;
+  videoTv.srcObject = stream;
+  videoLaptop.srcObject = stream;
 }
 
 // Load init
