@@ -14,8 +14,7 @@ body {
   position: relative;
 }
 
-video {
-  background: red;
+#video {
   position: absolute;
   overflow: hidden;
   transform: rotate(1deg);
