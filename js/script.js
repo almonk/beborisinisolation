@@ -1,9 +1,6 @@
 "use strict";
 
 const video = document.getElementById("video");
-const canvas = document.getElementById("canvas");
-const snap = document.getElementById("snap");
-const errorMsgElement = document.querySelector("span#errorMsg");
 
 const constraints = {
   audio: false,
