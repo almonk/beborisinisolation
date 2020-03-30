@@ -7,7 +7,7 @@ body {
 #bg {
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/background.jpg");
+  background-image: url("./img/background.jpg");
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
