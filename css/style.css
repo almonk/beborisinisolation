@@ -12,9 +12,10 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 }
 
-#video {
+#video-tv {
   position: absolute;
   overflow: hidden;
   transform: rotate(1deg);
@@ -22,4 +23,15 @@ body {
   margin-top: 23.4%;
   height: calc(22vw);
   width: 38.6vw;
+}
+
+#video-laptop {
+  position: absolute;
+  overflow: hidden;
+  transform: rotate3d(-10, 22.9, 8.9, 71.4deg);
+  margin-left: 20.2%;
+  margin-top: 48.1%;
+  height: calc(22.6vw);
+  width: 13.8vw;
+  filter: blur(3px) saturate(0.7) contrast(0.6) brightness(0.8);
 }
